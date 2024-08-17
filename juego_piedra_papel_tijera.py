@@ -1,8 +1,8 @@
 nombre1 = input("Nombre del jugador 1: ")
 nombre2 = input("Nombre del jugador 2: ")
 
-jugador1 = input(f'{nombre1}, ¿Qué eliges? ¿piedra, papel o tijera?: ')
-jugador2 = input(f'{nombre2}, ¿Qué eliges? ¿piedra, papel o tijera?: ')
+jugador1 = input(f'{nombre1}, ¿Qué eliges? ¿piedra, papel o tijera?: ').lower()
+jugador2 = input(f'{nombre2}, ¿Qué eliges? ¿piedra, papel o tijera?: ').lower()
 
 condicion1 = jugador1 == "piedra" and jugador2 == "tijera"
 condicion2 = jugador1 == "tijera" and jugador2 == "papel"
